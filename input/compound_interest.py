@@ -8,5 +8,6 @@ compound_interest = principal * (1+rate/100)**time -principal
 #calculating total amount due
 total_amount_due = principal + compound_interest
 #printing the results
+print("\t\t\t\t Results \t\t\t\t")
 print("Compound Interest : ", compound_interest)
 print("total amount due : ", total_amount_due)
