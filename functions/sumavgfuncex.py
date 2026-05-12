@@ -8,7 +8,6 @@ def readvalues():
         values.append(float(input("Enter value: ")))
     return values
 
-
 def sumavg(values):
     total=sum(values)
     average=total/len(values)
@@ -16,8 +15,10 @@ def sumavg(values):
 
 def main():
     values=readvalues()
+    print("Values entered: ",values)
     total,average=sumavg(values)
     print("Sum: ",total)
     print("Average: ",average)
 if __name__=="__main__":  
     main()
+ 
